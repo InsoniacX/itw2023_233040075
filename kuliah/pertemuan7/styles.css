@@ -1,0 +1,30 @@
+div {
+    width: 150px;
+    height: 150px;
+    margin: 50px auto;
+}
+
+.kotak1 {
+    background-color: salmon;
+    border-radius: 50% 50% 50% 0%;
+}
+
+p {
+    text-align: center;
+    top: 50%;
+}
+
+.kotak2 {
+    background-color: aqua;
+    /* box-shadow: <x-offset> <y-offset> <blur> [size] <color>;*/
+    box-shadow: 0px 0px 0px 10px red, 0px 0px 0px 10px orange, 0px 0px 0px 10px yellow, 0px 0px 0px 10px green;
+    background-image: url(./img/Acad_Morningwood.jpg);
+    background-size: cover;
+
+}
+
+.kotak2:hover {
+    border-radius: 50px;
+    transition: 3s;
+    transform:  rotate(360deg) scale(50%) ;
+}
