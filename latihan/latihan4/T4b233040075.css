@@ -1,0 +1,115 @@
+body {
+    line-height: 1;
+}
+
+blockquote, q {
+    quotes: none;
+}
+
+blockquote::before, blockquote::after, q::before, q::after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/* Style */
+
+body {
+    font: 16px/20px arial, sans-serif;
+    background-color: #eaeaea;
+    background-image: url(./img/jvvrwttj.png);
+    color: #333;
+}
+.container {
+    width: 1200px;
+    margin: auto;
+    background-color: #fff;
+}
+
+.navbar .content-navbar {
+    display: inline-flex;
+    background-color: white;
+    width: 100%;
+    padding: 20px;
+    padding-bottom: 10px;
+}
+
+.navbar .content-navbar .judul {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.navbar .content-navbar ul li {
+    display: inline-block;
+    margin-top: 12px;
+    margin-right: 10px;
+    align-items: end;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: salmon;
+}
+
+.navbar a:hover {
+    background-color: lightskyblue;
+    color: white;
+}
+
+.hero {
+    height: 500px;
+    background-image: url(./img/Really\ Learn\ JavaScript\ with\ 5\ Top\ Udemy\ Courses.jpg);
+    background-size: cover;
+    background-position: 0 -120px;
+    border-bottom: 5px solid lightskyblue;
+    border-top: 5px solid salmon;
+}
+
+.content {
+    padding: 20px;
+}
+
+.content h2 {
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.image {
+    display: block;
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.content .penulis {
+    font-size: 11px;
+    margin-top: -5px;
+}
+
+.content .penulis a {
+    color: salmon;
+    text-decoration: none;
+}
+
+.content p {
+    margin-bottom: 20px;
+    font-size: 13px;
+}
+
+.paragraph-list{
+    margin-top: 0px;
+}
+
+.footer{
+    background-color: #333;
+    padding: 10px;
+}
+
+.footer .copy {
+    color: #eaeaea;
+    text-align: center;
+}
