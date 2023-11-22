@@ -1,0 +1,48 @@
+body {
+    line-height: 1;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+body {
+    font: 16px/20px arial, sans-serif;
+    background-color: bisque;
+    color: black;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar .content-navbar {
+    display: flex;
+    background-color: black;
+    margin: 0;
+    padding: 0;
+    flex: 1;
+}
+
+.logo {
+    justify-content: left;
+}
+
+.navbar .content-navbar ul {
+    align-items: end;
+}
+
+.navbar .content-navbar ul li {
+    display: inline-flex;
+    margin: 12px;
+    justify-content: end;
+    align-self: flex-end;
+}
+
+.navbar ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.navbar {
+    display: flex;
+}
+
